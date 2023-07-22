@@ -2,7 +2,6 @@ import ImageGalleryItem from 'components/ImageGalleryItem/ImageGalleryItem';
 import { ImageGalleryList } from './ImageGallery.styled'
 import PropTypes from 'prop-types';
 
-
 const ImageGallery = ({ images }) => (
   <ImageGalleryList>
     {images.map(({ id, webformatURL, tags, largeImageURL }) => (
@@ -26,6 +25,5 @@ ImageGallery.propTypes = {
     })
   )
 };
-
 
 export default ImageGallery;
